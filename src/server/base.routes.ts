@@ -1,0 +1,11 @@
+import  {routerCategoria} from '../routes/categoria.routes'
+import {routerUsuario} from '../routes/usuario.routes'
+import { routerPersona } from '../routes/persona.routes'
+import {routerSeguidores} from '../routes/seguidores.routes'
+import { routerPublicacion } from '../routes/publicacion.routes'
+import {routerPaises} from '../routes/paises.routes'
+import {routerEtiqueta} from '../routes/etiqueta.routes'
+import {routerGenero} from '../routes/genero.routes'
+import { routerAutor } from '../routes/autor.routes'
+import { routerComentario } from '../routes/comentario.routes'
+export {routerCategoria,routerPaises, routerComentario,routerGenero, routerAutor, routerEtiqueta,routerUsuario,routerPersona,routerSeguidores,routerPublicacion}
